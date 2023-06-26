@@ -1,0 +1,32 @@
+.about {
+
+    text-align: center;
+
+    h2 {
+        @include ds(48px,62px,700);
+        margin-bottom: 40px;
+        position: relative;
+
+        &::after{
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -5px;
+            width: 185px;
+            height: 5px;
+            background: #27AE60;
+            transform: translateX(-50%);
+        }
+    }
+
+    p {
+        @include ds(18px,23px,400);
+        color: $color-lgray;
+        margin-bottom: 40px;
+    }
+
+    img {
+        width: 35px;
+        height: 35px;
+    }
+}

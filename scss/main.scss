@@ -1,0 +1,13 @@
+//utils
+@import 'utils/mixin';
+@import 'utils/varibles';
+@import 'utils/base';
+
+//main
+@import 'blocks/header';
+@import 'blocks/hero';
+@import 'blocks/about';
+@import 'blocks/skills';
+@import 'blocks/works';
+@import 'blocks/footer';
+@import 'blocks/popup';

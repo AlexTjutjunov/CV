@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper container">
+            <a href="" class="header-logo"><span>T&T</span></a>
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#about" class="menu-link">About me</a></li>
+                    <li class="menu-item"><a href="#skills" class="menu-link">My skills</a></li>
+                    <li class="menu-item"><a href="#works" class="menu-link">My works</a></li>
+                </ul>
+            </nav>
+            <div class="burger"></div>
+        </div>
+    </header>
+
+    <main class="main container">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Hi, I am
+                    Alex Tjutjunov</h1>
+                <p>Junior Frontend Developer</p>
+                <a href="https://github.com/AlexTjutjunov" target="_blank">GitHub</a>
+                <a href="cv/Invoice 41 VLADI - STTS Int. (DEU) FURTEX.pdf" target="_blank">CV</a>
+            </div>
+
+            <figure>
+                <img src="img/main.png" class="hero-img" alt="">
+            </figure>
+        </div>
+
+        <div id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                Do you need a representative business card, a bright landing page or a full-fledged website?
+                I will be glad to solve your questions, take into account all your wishes and complete everything on
+                time.
+                <br>
+                My name is Alex and I have been doing layout since 2022. Cross browser adaptive version. Finalizing the
+                functionality.
+                <br>
+                I enjoy layout, banstone learns and develops in the field of fontend. Your orders are not just a job for
+                me, but an opportunity to achieve great results, move to a higher level and learn new skills.
+            </p>
+        </div>
+
+        <div class="skills" id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-icons">
+                <figure class="skills-img"><img src="img/type-html.png" alt="html"></figure>
+                <figure class="skills-img"><img src="img/type-css.png" alt="css"></figure>
+                <figure class="skills-img"><img src="img/type_javascript.png" alt="js"></figure>
+                <figure class="skills-img"><img src="img/type-var.png" alt="var"></figure>
+                <figure class="skills-img"><img src="img/type_bootstrap.png" alt="boot"></figure>
+                <figure class="skills-img"><img src="img/type-xd.png" alt="xd"></figure>
+                <figure class="skills-img"><img src="img/type_sass.png" alt="sass"></figure>
+                <figure class="skills-img"><img src="img/typescript-icon.png" alt="ts"></figure>
+                <figure class="skills-img"><img src="img/react.png" alt="react"></figure>
+                <figure class="skills-img"><img src="img/type_tailwind-css.png" alt="tail"></figure>
+                <figure class="skills-img"><img src="img/type_figma.png" alt="figma"></figure>
+                <figure class="skills-img"><img src="img/type_github.png" alt="github"></figure>
+            </div>
+        </div>
+
+        <div class="works" id="works">
+            <h2>What i do</h2>
+            <div class="works-content">
+                <ul class="works-menu">
+                    <li class="works-menu-item">
+                        <a data-filter="all" href="#" class="works-menu-link active">All</a>
+                    </li>
+                    <li class="works-menu-item">
+                        <a data-filter="mobile-app" href="" class="works-menu-link">Mobile App</a>
+                    </li>
+                    <li class="works-menu-item">
+                        <a data-filter="web" href="" class="works-menu-link">Website Design</a>
+                    </li>
+                    <li class="works-menu-item">
+                        <a data-filter="dev" href="" class="works-menu-link">Website Development</a>
+                    </li>
+                </ul>
+                <div class="works-block">
+                    <figure class="works-img dev"><img src="img/works1.jpg" alt=""></figure>
+                    <figure class="works-img dev"><img src="img/works2.jpg" alt=""></figure>
+                    <figure class="works-img web"><img src="img/works3.jpg" alt=""></figure>
+                    <figure class="works-img dev"><img src="img/works4.jpg" alt=""></figure>
+                    <figure class="works-img dev"><img src="img/works5.jpg" alt=""></figure>
+                    <figure class="works-img dev"><img src="img/works6.jpg" alt=""></figure>
+                    <figure class="works-img web"><img src="img/works7.jpg" alt=""></figure>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <script>
+            document.write("&copy; "+ new Date().getFullYear()+ " T&T. All rights reserved.");
+          </script>
+    </footer>
+
+    <div class="kc_fab_wrapper">
+    </div>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/kc.fab.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            var links = [
+                {
+                    "bgcolor": "white",
+                    "icon": "+"
+                },
+                {
+                    "url": "tel:+380960327016",
+                    "bgcolor": "#27AE60",
+                    "color": "#fffff",
+                    "icon": "<i class='fa-solid fa-phone'></i>",
+                    "title": "Cell"
+                },
+                {
+                    "url": "https://wa.me/+380960327016?text=urlencodedtext",
+                    "bgcolor": "#27AE60",
+                    "color": "#fffff",
+                    "icon": "<i class='fa-brands fa-whatsapp'></i>",
+                    "target": "_blank",
+                    "title": "WhatsApp"
+                },
+                {
+                    "url": "https://t.me/alextjutjunov",
+                    "bgcolor": "#27AE60",
+                    "color": "#fffff",
+                    "icon": "<i class='fa-brands fa-telegram'></i>",
+                    "target": "_blank",
+                    "title": "Telegram"
+                },
+                {
+                    "url": "mailto:aleksandrtjutjunov@gmail.com",
+                    "bgcolor": "#27AE60",
+                    "color": "#fffff",
+                    "icon": "<i class='fa-regular fa-envelope'></i>",
+                    "target": "_blank",
+                    "title": "E-mail"
+                },
+                {
+                    "url": "https://www.facebook.com/aleksandrtjutjunov",
+                    "bgcolor": "#27AE60",
+                    "color": "#fffff",
+                    "icon": "<i class='fa-brands fa-facebook'></i>",
+                    "target": "_blank",
+                    "title": "Facebook"
+                }
+            ]
+            $('.kc_fab_wrapper').kc_fab(links);
+        })
+    </script>
+</body>
+
+</html>

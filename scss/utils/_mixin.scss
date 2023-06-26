@@ -1,0 +1,6 @@
+@mixin ds($fz, $lh, $fw){
+    font-family: 'DM Sans', sans-serif;
+    font-size: $fz;
+    line-height: $lh;
+    font-weight: $fw;
+}

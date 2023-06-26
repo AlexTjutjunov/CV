@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: $color-white;
+    background: #171717;
+
+    &.hidden {
+        overflow-y: hidden;
+    }
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    @media (max-width: 1200px){
+        padding: 0 20px;
+    }
+}
